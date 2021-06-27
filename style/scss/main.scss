@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+// main style
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1507842217343-583bb7270b66');
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode:overlay;
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+
+    // padding: 5vh 0;
+    margin-top: 5vh;
+
+    background-color: rgb(75, 143, 41,0.3);
+    border: green solid 1px;
+}
+
+#appContent{
+    margin: 2%;
+}
+
+h1{
+    font-size: 4em;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+h3{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.alert-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text-danger{
+    color: black;
+    text-align: center;
+    background-color: rgb(234, 84, 84,0.2);
+    border: red solid 1px;
+    width: fit-content;
+    text-align: center;
+    font-weight: 700;
+    padding: 0 5px;
+}
+
+.alert-success{
+    color: black;
+    text-align: center;
+    background-color: rgb(75, 143, 41, 0.2);
+    border: green solid 1px;
+    width: fit-content;
+    text-align: center;
+    font-weight: 700;
+    padding: 0 5px;
+}
+
+@import "error.scss";
+@import "accueil.scss";
+@import "table.scss";
+@import "formulaire.scss";

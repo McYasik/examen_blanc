@@ -1,0 +1,49 @@
+// page d'acceuil
+
+#accueil{
+    margin-top: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+    h2{
+        margin-bottom: 8vh;
+    }
+
+    #accueilContent{
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+        .accButton{
+            box-shadow:inset 0px 1px 0px 0px #3e7327;
+            background-color:#77b55a;
+            border-radius:6px;
+            border:1px solid #4b8f29;
+            display:inline-block;
+            cursor:pointer;
+            color:#ffffff;
+            font-family:Arial;
+            font-size:18px;
+            font-weight:bold;
+            padding:6px 24px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #5b8a3c;
+
+            margin: 0 20px;
+        }
+
+        .accButton:hover {
+            background-color:#72b352;
+        }
+        .accButton:active {
+            position:relative;
+            top:1px;
+        }
+
+
+    }
+}

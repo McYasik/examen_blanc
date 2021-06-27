@@ -1,0 +1,2 @@
+- Pourquoi le validator ne prends pas en compte la règle "interval:1-20" ?
+        => ne rentre donc pas dans le else if associé.

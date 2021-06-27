@@ -1,0 +1,17 @@
+{
+    "name": "quentin/book_app",
+    "description": "An app to organise your reading",
+    "authors": [
+        {
+            "name": "Yasik",
+            "email": "yasik47@msn.com"
+        }
+    ],
+    "require": {},
+
+    "autoload": {
+        "psr-4": { 
+            "App\\": "app"
+        }
+    }
+}

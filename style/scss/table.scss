@@ -1,0 +1,93 @@
+// .liste_page{
+//     background-color: rgba(255,255,255,0.8);
+//     border-radius: 5px;
+
+//     // width: max-content;
+
+//     display: flex;
+//     justify-content: center;
+// }
+
+.tableLivres{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    
+    
+    table{
+        min-width: 50%;
+        text-align: center;
+        background-color: rgba(255,255,255,0.8);
+        border-radius: 5px;
+
+
+
+        thead{
+            background-color: #77b55a;
+
+            th{
+                border-bottom: lightgray 1px double;
+                padding: 10px 5px;
+            }
+        }
+
+        td{
+            border-left: solid 1px lightgray;
+            border-right: solid 1px lightgray;
+            border-bottom: solid 1px lightgray;
+
+            padding: 10px 3px;
+        }
+
+        .btn-delete {
+            box-shadow:inset 0px 1px 0px 0px #cf866c;
+            background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+            background-color:#d0451b;
+            border-radius:3px;
+            border:1px solid #942911;
+            display:inline-block;
+            cursor:pointer;
+            color:#ffffff;
+            font-family:Arial;
+            font-size:13px;
+            padding:6px 15px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #854629;
+        }
+        .btn-delete:hover {
+            background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+            background-color:#bc3315;
+        }
+        .btn-delete:active {
+            position:relative;
+            top:1px;
+        }
+        
+
+        .btn-edit {
+            box-shadow:inset 0px 1px 0px 0px #54a3f7;
+            background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+            background-color:#007dc1;
+            border-radius:3px;
+            border:1px solid #124d77;
+            display:inline-block;
+            cursor:pointer;
+            color:#ffffff;
+            font-family:Arial;
+            font-size:13px;
+            padding:6px 15px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #154682;
+        }
+        .btn-edit:hover {
+            background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+            background-color:#0061a7;
+        }
+        .btn-edit:active {
+            position:relative;
+            top:1px;
+        }
+        
+    }
+}
